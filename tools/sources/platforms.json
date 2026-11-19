@@ -1,0 +1,4015 @@
+{
+ "about": "Platform numbers per station node, from Wikipedia station layout tables (English and Thai). A row is kept only when its next station matches our network and its \"towards\" station lies ahead in that direction. Stations where English and Thai disagree are left out. \"towards\" is the line end in that direction.",
+ "checked_on": "2026-11-10",
+ "stations": {
+  "N24": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N23"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Khu_Khot_BTS_station&oldid=1371204069"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%84%E0%B8%B9%E0%B8%84%E0%B8%95&oldid=13381994"
+    }
+   ]
+  },
+  "N23": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N22"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N24"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%81%E0%B8%A2%E0%B8%81_%E0%B8%84%E0%B8%9B%E0%B8%AD.&oldid=13192058"
+    }
+   ]
+  },
+  "N22": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N21"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N23"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B4%E0%B8%98%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B1%E0%B8%9E%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8&oldid=13192057"
+    }
+   ]
+  },
+  "N21": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N20"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N22"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%9E%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%B8%E0%B8%A5%E0%B8%A2%E0%B9%80%E0%B8%94%E0%B8%8A&oldid=13192056"
+    }
+   ]
+  },
+  "N20": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N19"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N21"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88&oldid=13192055"
+    }
+   ]
+  },
+  "N19": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N18"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N20"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A2%E0%B8%B8%E0%B8%94&oldid=13397849"
+    }
+   ]
+  },
+  "N18": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N17"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N19"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9E%E0%B8%AB%E0%B8%A5%E0%B9%82%E0%B8%A2%E0%B8%98%E0%B8%B4%E0%B8%99_59&oldid=13192004"
+    }
+   ]
+  },
+  "N17": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N16"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N18"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8&oldid=13377883"
+    }
+   ]
+  },
+  "PK16": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK17"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK15"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8&oldid=13377883"
+    }
+   ]
+  },
+  "N16": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N15"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N17"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B2%E0%B8%9A%E0%B8%97%E0%B8%B5%E0%B9%88_11&oldid=13251801"
+    }
+   ]
+  },
+  "N15": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N14"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N16"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%9A%E0%B8%B1%E0%B8%A7&oldid=13192001"
+    }
+   ]
+  },
+  "N14": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N13"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N15"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%A1%E0%B9%89&oldid=13191999"
+    }
+   ]
+  },
+  "N13": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N12"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N14"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%95%E0%B8%A3%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C&oldid=13191997"
+    }
+   ]
+  },
+  "N12": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N11"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N13"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%B4%E0%B8%84%E0%B8%A1&oldid=13197507"
+    }
+   ]
+  },
+  "N11": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N10"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N12"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B9%82%E0%B8%A2%E0%B8%98%E0%B8%B4%E0%B8%99&oldid=13197506"
+    }
+   ]
+  },
+  "N10": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N9"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9E%E0%B8%AB%E0%B8%A5%E0%B9%82%E0%B8%A2%E0%B8%98%E0%B8%B4%E0%B8%99_24&oldid=13214710"
+    }
+   ]
+  },
+  "N9": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N8"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N10"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AB%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%A2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%A7&oldid=13250358"
+    }
+   ]
+  },
+  "N8": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N7"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N9"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%8A%E0%B8%B4%E0%B8%95&oldid=13395474"
+    }
+   ]
+  },
+  "N7": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N5"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N8"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A2&oldid=13191985"
+    }
+   ]
+  },
+  "N5": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N4"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N7"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B9%8C&oldid=13293389"
+    }
+   ]
+  },
+  "N4": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N3"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N5"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%99%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B9%89%E0%B8%B2&oldid=13191981"
+    }
+   ]
+  },
+  "N3": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N2"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N4"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%B2%E0%B8%A7%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%8A%E0%B8%B1%E0%B8%A2%E0%B8%AA%E0%B8%A1%E0%B8%A3%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4&oldid=13191979"
+    }
+   ]
+  },
+  "N2": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "N1"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N3"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9E%E0%B8%8D%E0%B8%B2%E0%B9%84%E0%B8%97&oldid=13358834"
+    }
+   ]
+  },
+  "A8": {
+   "platforms": [
+    {
+     "no": "1, 2",
+     "towards": "A1",
+     "next": "A7"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9E%E0%B8%8D%E0%B8%B2%E0%B9%84%E0%B8%97&oldid=13358834"
+    }
+   ]
+  },
+  "N1": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "CEN"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N2"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B9%80%E0%B8%97%E0%B8%A7%E0%B8%B5&oldid=13191977"
+    }
+   ]
+  },
+  "CEN": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E1"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "N1"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Siam_BTS_station&oldid=1381258007"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%A2%E0%B8%B2%E0%B8%A1&oldid=13299609"
+    }
+   ]
+  },
+  "CEN-SL": {
+   "platforms": [
+    {
+     "no": "3",
+     "towards": "S12",
+     "next": "S1"
+    },
+    {
+     "no": "4",
+     "towards": "W1",
+     "next": "W1"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Siam_BTS_station&oldid=1381258007"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%A2%E0%B8%B2%E0%B8%A1&oldid=13299609"
+    }
+   ]
+  },
+  "E1": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E2"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "CEN"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%8A%E0%B8%B4%E0%B8%94%E0%B8%A5%E0%B8%A1&oldid=13394123"
+    }
+   ]
+  },
+  "E2": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E3"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E1"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%80%E0%B8%9E%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%88%E0%B8%B4%E0%B8%95&oldid=13381353"
+    }
+   ]
+  },
+  "E3": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E4"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E2"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%B2&oldid=13192062"
+    }
+   ]
+  },
+  "E4": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E5"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E3"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AD%E0%B9%82%E0%B8%A8%E0%B8%81&oldid=13201939"
+    }
+   ]
+  },
+  "E5": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E6"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E4"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%87%E0%B8%A9%E0%B9%8C&oldid=13386373"
+    }
+   ]
+  },
+  "E6": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E7"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E5"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%AD&oldid=13192066"
+    }
+   ]
+  },
+  "E7": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E8"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E6"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%A1%E0%B8%B1%E0%B8%A2&oldid=13192067"
+    }
+   ]
+  },
+  "E8": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E9"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E7"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B9%82%E0%B8%82%E0%B8%99%E0%B8%87&oldid=13217552"
+    }
+   ]
+  },
+  "E9": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E10"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E8"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%99%E0%B8%B8%E0%B8%8A&oldid=13192070"
+    }
+   ]
+  },
+  "E10": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E11"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E9"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%88%E0%B8%B2%E0%B8%81&oldid=13381269"
+    }
+   ]
+  },
+  "E11": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E12"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E10"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9B%E0%B8%B8%E0%B8%93%E0%B8%93%E0%B8%A7%E0%B8%B4%E0%B8%96%E0%B8%B5&oldid=13360463"
+    }
+   ]
+  },
+  "E12": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E13"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AD%E0%B8%B8%E0%B8%94%E0%B8%A1%E0%B8%AA%E0%B8%B8%E0%B8%82&oldid=13360587"
+    }
+   ]
+  },
+  "E13": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E14"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E12"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B8%B2&oldid=13381268"
+    }
+   ]
+  },
+  "E14": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E15"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E13"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%81%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%87&oldid=13192076"
+    }
+   ]
+  },
+  "YL23": {
+   "platforms": [
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL22"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Samrong_station&oldid=1371201509"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B3%E0%B9%82%E0%B8%A3%E0%B8%87&oldid=13377943"
+    }
+   ]
+  },
+  "E15": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E16"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E14"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B3%E0%B9%82%E0%B8%A3%E0%B8%87&oldid=13377943"
+    }
+   ]
+  },
+  "E16": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E17"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E15"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9B%E0%B8%B9%E0%B9%88%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2&oldid=13192078"
+    }
+   ]
+  },
+  "E17": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E18"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E16"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%AD%E0%B8%A3%E0%B8%B2%E0%B8%A7%E0%B8%B1%E0%B8%93&oldid=13369020"
+    }
+   ]
+  },
+  "E18": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E19"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E17"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD&oldid=13192082"
+    }
+   ]
+  },
+  "E19": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E20"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E18"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B8%99%E0%B9%89%E0%B8%B3&oldid=13382080"
+    }
+   ]
+  },
+  "E20": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E21"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E19"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C&oldid=13192084"
+    }
+   ]
+  },
+  "E21": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E22"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E20"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%81%E0%B8%9E%E0%B8%A3%E0%B8%81%E0%B8%A9%E0%B8%B2&oldid=13192085"
+    }
+   ]
+  },
+  "E22": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "E23",
+     "next": "E23"
+    },
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E21"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%A5%E0%B8%A7%E0%B8%94&oldid=13192086"
+    }
+   ]
+  },
+  "E23": {
+   "platforms": [
+    {
+     "no": "2",
+     "towards": "N24",
+     "next": "E22"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%80%E0%B8%84%E0%B8%AB%E0%B8%B0%E0%B8%AF&oldid=13192088"
+    }
+   ]
+  },
+  "W1": {
+   "platforms": [
+    {
+     "no": "3",
+     "towards": "S12",
+     "next": "CEN-SL"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=National_Stadium_BTS_station&oldid=1370957179"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%99%E0%B8%B2%E0%B8%A1%E0%B8%81%E0%B8%B5%E0%B8%AC%E0%B8%B2%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4&oldid=13374276"
+    }
+   ]
+  },
+  "S1": {
+   "platforms": [
+    {
+     "no": "3",
+     "towards": "S12",
+     "next": "S2"
+    },
+    {
+     "no": "4",
+     "towards": "W1",
+     "next": "CEN-SL"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Ratchadamri_BTS_station&oldid=1370978379"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%94%E0%B8%B3%E0%B8%A3%E0%B8%B4&oldid=13187827"
+    }
+   ]
+  },
+  "S2": {
+   "platforms": [
+    {
+     "no": "3",
+     "towards": "S12",
+     "next": "S3"
+    },
+    {
+     "no": "4",
+     "towards": "W1",
+     "next": "S1"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Sala_Daeng_BTS_station&oldid=1370892791"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B9%81%E0%B8%94%E0%B8%87&oldid=13127873"
+    }
+   ]
+  },
+  "S3": {
+   "platforms": [
+    {
+     "no": "3",
+     "towards": "S12",
+     "next": "S4"
+    },
+    {
+     "no": "4",
+     "towards": "W1",
+     "next": "S2"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Chong_Nonsi_BTS_station&oldid=1382117160"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%8A%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B5&oldid=13272443"
+    }
+   ]
+  },
+  "S4": {
+   "platforms": [
+    {
+     "no": "3",
+     "towards": "S12",
+     "next": "S5"
+    },
+    {
+     "no": "4",
+     "towards": "W1",
+     "next": "S3"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Saint_Louis_BTS_station&oldid=1370891369"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%80%E0%B8%8B%E0%B8%99%E0%B8%95%E0%B9%8C%E0%B8%AB%E0%B8%A5%E0%B8%B8%E0%B8%A2%E0%B8%AA%E0%B9%8C&oldid=13127869"
+    }
+   ]
+  },
+  "S5": {
+   "platforms": [
+    {
+     "no": "3",
+     "towards": "S12",
+     "next": "S6"
+    },
+    {
+     "no": "4",
+     "towards": "W1",
+     "next": "S4"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Surasak_BTS_station&oldid=1371201789"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%A8%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%B4%E0%B9%8C&oldid=13127868"
+    }
+   ]
+  },
+  "S6": {
+   "platforms": [
+    {
+     "no": "3",
+     "towards": "S12",
+     "next": "S7"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Saphan_Taksin_BTS_station&oldid=1370896212"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B2%E0%B8%81%E0%B8%AA%E0%B8%B4%E0%B8%99&oldid=13344942"
+    }
+   ]
+  },
+  "S7": {
+   "platforms": [
+    {
+     "no": "3",
+     "towards": "S12",
+     "next": "S8"
+    },
+    {
+     "no": "4",
+     "towards": "W1",
+     "next": "S6"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Krung_Thon_Buri_BTS_station&oldid=1371277902"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B8%98%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5&oldid=13381266"
+    }
+   ]
+  },
+  "S8": {
+   "platforms": [
+    {
+     "no": "3",
+     "towards": "S12",
+     "next": "S9"
+    },
+    {
+     "no": "4",
+     "towards": "W1",
+     "next": "S7"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Wongwian_Yai_station&oldid=1370799857"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%A7%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88&oldid=13300033"
+    }
+   ]
+  },
+  "S9": {
+   "platforms": [
+    {
+     "no": "3",
+     "towards": "S12",
+     "next": "S10"
+    },
+    {
+     "no": "4",
+     "towards": "W1",
+     "next": "S8"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Pho_Nimit_BTS_station&oldid=1370811978"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%82%E0%B8%9E%E0%B8%98%E0%B8%B4%E0%B9%8C%E0%B8%99%E0%B8%B4%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%A3&oldid=13127852"
+    }
+   ]
+  },
+  "S10": {
+   "platforms": [
+    {
+     "no": "3",
+     "towards": "S12",
+     "next": "S11"
+    },
+    {
+     "no": "4",
+     "towards": "W1",
+     "next": "S9"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Talat_Phlu_BTS_station&oldid=1371204318"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9E%E0%B8%A5%E0%B8%B9_(%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%9A%E0%B8%B5%E0%B8%97%E0%B8%B5%E0%B9%80%E0%B8%AD%E0%B8%AA)&oldid=13332406"
+    }
+   ]
+  },
+  "BL34": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL35"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL33",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Bang_Wa_station&oldid=1370800011"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B9%89%E0%B8%B2&oldid=13378738"
+    }
+   ]
+  },
+  "S12": {
+   "platforms": [
+    {
+     "no": "4",
+     "towards": "W1",
+     "next": "S11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Bang_Wa_station&oldid=1370800011"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B9%89%E0%B8%B2&oldid=13378738"
+    }
+   ]
+  },
+  "G3": {
+   "platforms": [
+    {
+     "no": "2",
+     "towards": "G1",
+     "next": "G2"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Khlong_San_station&oldid=1371203794"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%99&oldid=13127910"
+    }
+   ]
+  },
+  "BL01": {
+   "platforms": [
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL32",
+     "via": "BL11"
+    },
+    {
+     "no": "4",
+     "towards": "BL38",
+     "next": "BL02",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%9E%E0%B8%A3%E0%B8%B0&oldid=13378030"
+    }
+   ]
+  },
+  "BL02": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL03",
+     "via": "BL11"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL01"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%88%E0%B8%A3%E0%B8%B1%E0%B8%8D%E0%B8%AF_13&oldid=13378025"
+    }
+   ]
+  },
+  "BL03": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL04",
+     "via": "BL11"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL02"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%84%E0%B8%9F%E0%B8%89%E0%B8%B2%E0%B8%A2&oldid=13378039"
+    }
+   ]
+  },
+  "BL04": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL05",
+     "via": "BL11"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL03"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%82%E0%B8%B8%E0%B8%99%E0%B8%99%E0%B8%99%E0%B8%97%E0%B9%8C&oldid=13378027"
+    }
+   ]
+  },
+  "BL05": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL06",
+     "via": "BL11"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL04"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%82%E0%B8%B1%E0%B8%99&oldid=13378032"
+    }
+   ]
+  },
+  "BL06": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL07",
+     "via": "BL11"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL05"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B4%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%98%E0%B8%A3&oldid=13378049"
+    }
+   ]
+  },
+  "BL07": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL08",
+     "via": "BL11"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL06"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%94&oldid=13378031"
+    }
+   ]
+  },
+  "BL08": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL09",
+     "via": "BL11"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL07"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%89%E0%B8%AD&oldid=13378035"
+    }
+   ]
+  },
+  "BL09": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL10",
+     "via": "BL11"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL08"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%82%E0%B8%9E&oldid=13378033"
+    }
+   ]
+  },
+  "BL10": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL11",
+     "via": "BL11"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL09"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Tao_Poon_MRT_station&oldid=1371277594"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%80%E0%B8%95%E0%B8%B2%E0%B8%9B%E0%B8%B9%E0%B8%99&oldid=13378029"
+    }
+   ]
+  },
+  "BL11": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL12"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL10"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Bang_Sue_MRT_station&oldid=1370800003"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%AD%E0%B8%A0%E0%B8%B4%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B9%8C&oldid=13376029"
+    }
+   ]
+  },
+  "BL12": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL13"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL11",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Kamphaeng_Phet_MRT_station&oldid=1371199412"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%81%E0%B8%B3%E0%B9%81%E0%B8%9E%E0%B8%87%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3&oldid=13378071"
+    }
+   ]
+  },
+  "BL13": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL14"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL12",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Chatuchak_Park_MRT_station&oldid=1370892552"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%88%E0%B8%95%E0%B8%B8%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3&oldid=13378078"
+    }
+   ]
+  },
+  "BL14": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL15"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL13",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Phahon_Yothin_MRT_station&oldid=1370811851"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9E%E0%B8%AB%E0%B8%A5%E0%B9%82%E0%B8%A2%E0%B8%98%E0%B8%B4%E0%B8%99_(%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3)&oldid=13378072"
+    }
+   ]
+  },
+  "BL15": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL16"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL14",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Lat_Phrao_MRT_station&oldid=1371327502"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%A7&oldid=13378046"
+    }
+   ]
+  },
+  "YL01": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL02"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Lat_Phrao_MRT_station&oldid=1371327502"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%A7&oldid=13378046"
+    }
+   ]
+  },
+  "BL16": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL17"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL15",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Ratchadaphisek_MRT_station&oldid=1370978383"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%94%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81&oldid=13378074"
+    }
+   ]
+  },
+  "BL17": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL18"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL16",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Sutthisan_MRT_station&oldid=1371202010"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B8%AA%E0%B8%B2%E0%B8%A3&oldid=13378080"
+    }
+   ]
+  },
+  "BL18": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL19"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL17",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Huai_Khwang_MRT_station&oldid=1371014271"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AB%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%82%E0%B8%A7%E0%B8%B2%E0%B8%87&oldid=13378081"
+    }
+   ]
+  },
+  "BL19": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL20"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL18",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Thailand_Cultural_Centre_MRT_station&oldid=1371326041"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2&oldid=13380080"
+    }
+   ]
+  },
+  "BL20": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL21"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL19",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Phra_Ram_9_MRT_station&oldid=1370812049"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%A1_9&oldid=13378966"
+    }
+   ]
+  },
+  "BL21": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL22"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL20",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Phetchaburi_MRT_station&oldid=1370811912"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5_(%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3)&oldid=13380166"
+    }
+   ]
+  },
+  "BL22": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL23"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL21",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Sukhumvit_MRT_station&oldid=1370914553"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%B8%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B8%97&oldid=13378077"
+    }
+   ]
+  },
+  "BL23": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL24"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL22",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Queen_Sirikit_National_Convention_Centre_MRT_station&oldid=1380729807"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%AA%E0%B8%B4%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B4%E0%B8%95%E0%B8%B4%E0%B9%8C&oldid=13378732"
+    }
+   ]
+  },
+  "BL24": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL25"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL23",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Khlong_Toei_MRT_station&oldid=1371203832"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%95%E0%B8%A2&oldid=13378023"
+    }
+   ]
+  },
+  "BL25": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL26"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL24",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Lumphini_MRT_station&oldid=1371276687"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A5%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%99%E0%B8%B5&oldid=13378075"
+    }
+   ]
+  },
+  "BL26": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL27"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL25",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Si_Lom_MRT_station&oldid=1370906775"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B5%E0%B8%A5%E0%B8%A1&oldid=13378079"
+    }
+   ]
+  },
+  "BL27": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL28"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL26",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Sam_Yan_MRT_station&oldid=1370893274"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%99&oldid=13378056"
+    }
+   ]
+  },
+  "BL28": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL29"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL27",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Hua_Lamphong_MRT_station&oldid=1371011171"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%A5%E0%B8%B3%E0%B9%82%E0%B8%9E%E0%B8%87&oldid=13378082"
+    }
+   ]
+  },
+  "BL29": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL30"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL28",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Wat_Mangkon_MRT_station&oldid=1370797316"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3&oldid=13378048"
+    }
+   ]
+  },
+  "BL30": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL31"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL29",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Sam_Yot_MRT_station&oldid=1370893286"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%AD%E0%B8%94&oldid=13378054"
+    }
+   ]
+  },
+  "BL31": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL32"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL30",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Sanam_Chai_MRT_station&oldid=1370894627"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%99%E0%B8%B2%E0%B8%A1%E0%B9%84%E0%B8%8A%E0%B8%A2&oldid=13378050"
+    }
+   ]
+  },
+  "BL32": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL01"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL31",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Itsaraphap_MRT_station&oldid=1381384587"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AD%E0%B8%B4%E0%B8%AA%E0%B8%A3%E0%B8%A0%E0%B8%B2%E0%B8%9E&oldid=13378059"
+    }
+   ]
+  },
+  "BL33": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL34"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL01",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%84%E0%B8%9C%E0%B9%88&oldid=13378026"
+    }
+   ]
+  },
+  "BL35": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL36"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL34",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%80%E0%B8%9E%E0%B8%8A%E0%B8%A3%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%A1_48&oldid=13378038"
+    }
+   ]
+  },
+  "BL36": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL37"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL35",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B5%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D&oldid=13378044"
+    }
+   ]
+  },
+  "BL37": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "BL38",
+     "next": "BL38"
+    },
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL36",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%84&oldid=13378028"
+    }
+   ]
+  },
+  "BL38": {
+   "platforms": [
+    {
+     "no": "2",
+     "towards": "BL01",
+     "next": "BL37",
+     "via": "BL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%AD%E0%B8%87&oldid=13378058"
+    }
+   ]
+  },
+  "PP01": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PP16",
+     "next": "PP02"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%84%E0%B8%9C%E0%B9%88&oldid=13377996"
+    }
+   ]
+  },
+  "PP02": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PP16",
+     "next": "PP03"
+    },
+    {
+     "no": "2",
+     "towards": "PP01",
+     "next": "PP01"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88&oldid=13377993"
+    }
+   ]
+  },
+  "PP03": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PP16",
+     "next": "PP04"
+    },
+    {
+     "no": "2",
+     "towards": "PP01",
+     "next": "PP02"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%81%E0%B8%A2%E0%B8%81%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88&oldid=13378008"
+    }
+   ]
+  },
+  "PP04": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PP16",
+     "next": "PP05"
+    },
+    {
+     "no": "2",
+     "towards": "PP01",
+     "next": "PP03"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%9E%E0%B8%A5%E0%B8%B9&oldid=13378018"
+    }
+   ]
+  },
+  "PP05": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PP16",
+     "next": "PP06"
+    },
+    {
+     "no": "2",
+     "towards": "PP01",
+     "next": "PP04"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88&oldid=13378020"
+    }
+   ]
+  },
+  "PP06": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PP16",
+     "next": "PP07"
+    },
+    {
+     "no": "2",
+     "towards": "PP01",
+     "next": "PP05"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%AD%E0%B8%B4%E0%B8%90&oldid=13378017"
+    }
+   ]
+  },
+  "PP07": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PP16",
+     "next": "PP08"
+    },
+    {
+     "no": "2",
+     "towards": "PP01",
+     "next": "PP06"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%84%E0%B8%97%E0%B8%A3%E0%B8%A1%E0%B9%89%E0%B8%B2&oldid=13378016"
+    }
+   ]
+  },
+  "PP08": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PP16",
+     "next": "PP09"
+    },
+    {
+     "no": "2",
+     "towards": "PP01",
+     "next": "PP07"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2&oldid=13378021"
+    }
+   ]
+  },
+  "PP09": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PP16",
+     "next": "PP10"
+    },
+    {
+     "no": "2",
+     "towards": "PP01",
+     "next": "PP08"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%81%E0%B8%A2%E0%B8%81%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5_1&oldid=13378004"
+    }
+   ]
+  },
+  "PP10": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PP16",
+     "next": "PP11"
+    },
+    {
+     "no": "2",
+     "towards": "PP01",
+     "next": "PP09"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%AD&oldid=13378015"
+    }
+   ]
+  },
+  "PP11": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PP16",
+     "next": "PP12"
+    },
+    {
+     "no": "2",
+     "towards": "PP01",
+     "next": "PP10"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5&oldid=13378007"
+    }
+   ]
+  },
+  "PK01": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK02"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5&oldid=13378007"
+    }
+   ]
+  },
+  "PP12": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PP16",
+     "next": "PP13"
+    },
+    {
+     "no": "2",
+     "towards": "PP01",
+     "next": "PP11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%A3%E0%B8%A7%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%AA%E0%B8%B8%E0%B8%82&oldid=13378014"
+    }
+   ]
+  },
+  "PP13": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PP16",
+     "next": "PP14"
+    },
+    {
+     "no": "2",
+     "towards": "PP01",
+     "next": "PP12"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%81%E0%B8%A2%E0%B8%81%E0%B8%95%E0%B8%B4%E0%B8%A7%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%97%E0%B9%8C&oldid=13378019"
+    }
+   ]
+  },
+  "PP14": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PP16",
+     "next": "PP15"
+    },
+    {
+     "no": "2",
+     "towards": "PP01",
+     "next": "PP13"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A7%E0%B8%87%E0%B8%A8%E0%B9%8C%E0%B8%AA%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87&oldid=13378022"
+    }
+   ]
+  },
+  "PP15": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PP16",
+     "next": "PP16"
+    },
+    {
+     "no": "2",
+     "towards": "PP01",
+     "next": "PP14"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%99&oldid=13377998"
+    }
+   ]
+  },
+  "RW02": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "RW06",
+     "next": "RW05"
+    },
+    {
+     "no": "2",
+     "towards": "RW01",
+     "next": "RW01"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%99&oldid=13377998"
+    }
+   ]
+  },
+  "YL02": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL03"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL01"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Phawana_MRT_station&oldid=1370811890"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%99%E0%B8%B2&oldid=13377929"
+    }
+   ]
+  },
+  "YL03": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL04"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL02"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Chok_Chai_4_MRT_station&oldid=1370895226"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%82%E0%B8%8A%E0%B8%84%E0%B8%8A%E0%B8%B1%E0%B8%A2_4&oldid=13377927"
+    }
+   ]
+  },
+  "YL04": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL05"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL03"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Lat_Phrao_71_MRT_station&oldid=1371327492"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%A7_71&oldid=13377939"
+    }
+   ]
+  },
+  "YL05": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL06"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL04"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Lat_Phrao_83_MRT_station&oldid=1371327499"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%A7_83&oldid=13377931"
+    }
+   ]
+  },
+  "YL06": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL07"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL05"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Mahat_Thai_MRT_station&oldid=1371193750"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B9%84%E0%B8%97%E0%B8%A2&oldid=13377924"
+    }
+   ]
+  },
+  "YL07": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL08"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL06"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Lat_Phrao_101_MRT_station&oldid=1371327489"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%A7_101&oldid=13377928"
+    }
+   ]
+  },
+  "YL08": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL09"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL07"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Bang_Kapi_MRT_station&oldid=1370799685"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B0%E0%B8%9B%E0%B8%B4&oldid=13377930"
+    }
+   ]
+  },
+  "YL09": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL10"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL08"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Yaek_Lam_Sali_MRT_station&oldid=1370801168"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%81%E0%B8%A2%E0%B8%81%E0%B8%A5%E0%B8%B3%E0%B8%AA%E0%B8%B2%E0%B8%A5%E0%B8%B5&oldid=13377926"
+    }
+   ]
+  },
+  "YL10": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL11"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL09"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Si_Kritha_MRT_station&oldid=1370906764"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%91%E0%B8%B2&oldid=13377933"
+    }
+   ]
+  },
+  "YL11": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL12"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL10"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Hua_Mak_station&oldid=1371011189"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%81&oldid=13377913"
+    }
+   ]
+  },
+  "A4": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "A1",
+     "next": "A3"
+    },
+    {
+     "no": "2",
+     "towards": "A8",
+     "next": "A5"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%81&oldid=13377913"
+    }
+   ]
+  },
+  "YL12": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL13"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Kalantan_MRT_station&oldid=1371198236"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B8%B1%E0%B8%99&oldid=13377925"
+    }
+   ]
+  },
+  "YL13": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL14"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL12"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Si_Nut_MRT_station&oldid=1370906782"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%B8%E0%B8%8A&oldid=13377938"
+    }
+   ]
+  },
+  "YL14": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL15"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL13"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Srinagarindra_38_MRT_station&oldid=1370911484"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C_38&oldid=13377932"
+    }
+   ]
+  },
+  "YL15": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL16"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL14"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Suan_Luang_Rama_IX_MRT_station&oldid=1379874739"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87_%E0%B8%A3.9&oldid=13377942"
+    }
+   ]
+  },
+  "YL16": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL17"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL15"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Si_Udom_MRT_station&oldid=1370906808"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%AD%E0%B8%B8%E0%B8%94%E0%B8%A1&oldid=13377941"
+    }
+   ]
+  },
+  "YL17": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL18"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL16"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Si_Iam_MRT_station&oldid=1370906758"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B9%80%E0%B8%AD%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1&oldid=13377920"
+    }
+   ]
+  },
+  "YL18": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL19"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL17"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Si_La_Salle_MRT_station&oldid=1370906772"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A5%E0%B8%B2%E0%B8%8B%E0%B8%B2%E0%B8%A5&oldid=13377936"
+    }
+   ]
+  },
+  "YL19": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL20"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL18"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Si_Bearing_MRT_station&oldid=1370906748"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B9%81%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%87&oldid=13377940"
+    }
+   ]
+  },
+  "YL20": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL21"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL19"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Si_Dan_MRT_station&oldid=1370906754"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%94%E0%B9%88%E0%B8%B2%E0%B8%99&oldid=13377935"
+    }
+   ]
+  },
+  "YL21": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL22"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL20"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Si_Thepha_MRT_station&oldid=1370906795"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%B2&oldid=13377937"
+    }
+   ]
+  },
+  "YL22": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "YL23",
+     "next": "YL23"
+    },
+    {
+     "no": "2",
+     "towards": "YL01",
+     "next": "YL21"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Thipphawan_MRT_station&oldid=1371326528"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%97%E0%B8%B4%E0%B8%9E%E0%B8%A7%E0%B8%B1%E0%B8%A5&oldid=13377901"
+    }
+   ]
+  },
+  "PK02": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK03"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK01"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%81%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%A2&oldid=13377871"
+    }
+   ]
+  },
+  "PK03": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK04"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK02"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%99%E0%B8%B2%E0%B8%A1%E0%B8%9A%E0%B8%B4%E0%B8%99%E0%B8%99%E0%B9%89%E0%B8%B3&oldid=13377888"
+    }
+   ]
+  },
+  "PK04": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK05"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK03"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%84%E0%B8%B5&oldid=13377891"
+    }
+   ]
+  },
+  "PK05": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK06"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK04"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%81%E0%B8%A3%E0%B8%A1%E0%B8%8A%E0%B8%A5%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B2%E0%B8%99&oldid=13371096"
+    }
+   ]
+  },
+  "PK06": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK07"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK05"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%81%E0%B8%A2%E0%B8%81%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B9%87%E0%B8%94&oldid=13352065"
+    }
+   ]
+  },
+  "PK07": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK08"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK06"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%80%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%87%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B9%87%E0%B8%94&oldid=13248947"
+    }
+   ]
+  },
+  "PK09": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK10"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK08"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%A3%E0%B8%B1%E0%B8%8A&oldid=13377886"
+    }
+   ]
+  },
+  "PK10": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK11"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK09"
+    },
+    {
+     "no": "3",
+     "towards": "MT02",
+     "next": "MT01"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5&oldid=13377878"
+    }
+   ]
+  },
+  "PK11": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK12"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK10"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%81%E0%B8%88%E0%B9%89%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B0_14&oldid=13377870"
+    }
+   ]
+  },
+  "PK12": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK13"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK11"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%89%E0%B8%A5%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B8%A2%E0%B8%A3%E0%B8%95%E0%B8%B4&oldid=13377889"
+    }
+   ]
+  },
+  "PK13": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK14"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK12"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%82%E0%B8%97%E0%B8%A3%E0%B8%84%E0%B8%A1%E0%B8%99%E0%B8%B2%E0%B8%84%E0%B8%A1%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4&oldid=13377872"
+    }
+   ]
+  },
+  "RN06": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "RN10",
+     "next": "RN07"
+    },
+    {
+     "no": "2",
+     "towards": "RN01",
+     "next": "RN05"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B5%E0%B9%88&oldid=13377892"
+    }
+   ]
+  },
+  "PK14": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK15"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK13"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B5%E0%B9%88&oldid=13377892"
+    }
+   ]
+  },
+  "PK15": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK16"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK14"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%A0%E0%B8%B1%E0%B8%8F%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3&oldid=13377879"
+    }
+   ]
+  },
+  "PK17": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK18"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK16"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B2_3&oldid=13377880"
+    }
+   ]
+  },
+  "PK18": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK19"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK17"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B9%80%E0%B8%84%E0%B9%89%E0%B8%B2&oldid=13377884"
+    }
+   ]
+  },
+  "PK19": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK20"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK18"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B2_%E0%B8%81%E0%B8%A1.4&oldid=13377881"
+    }
+   ]
+  },
+  "PK20": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK21"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK19"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A1%E0%B8%B1%E0%B8%A2%E0%B8%A5%E0%B8%B2%E0%B8%A0&oldid=13377875"
+    }
+   ]
+  },
+  "PK21": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK22"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK20"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%8A%E0%B8%A3%E0%B8%9E%E0%B8%A5&oldid=13377887"
+    }
+   ]
+  },
+  "PK22": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK23"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK21"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B2_%E0%B8%81%E0%B8%A1.6&oldid=13377877"
+    }
+   ]
+  },
+  "PK23": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK24"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK22"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%84%E0%B8%B9%E0%B9%89%E0%B8%9A%E0%B8%AD%E0%B8%99&oldid=13355544"
+    }
+   ]
+  },
+  "PK24": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK25"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK23"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B2_%E0%B8%81%E0%B8%A1.9&oldid=13377882"
+    }
+   ]
+  },
+  "PK26": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK27"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK25"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%99%E0%B8%9E%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%99%E0%B9%8C&oldid=13355550"
+    }
+   ]
+  },
+  "PK27": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK28"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK26"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B8%B1%E0%B8%99&oldid=13377874"
+    }
+   ]
+  },
+  "PK28": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK29"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK27"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%80%E0%B8%A8%E0%B8%A3%E0%B8%A9%E0%B8%90%E0%B8%9A%E0%B8%B8%E0%B8%95%E0%B8%A3%E0%B8%9A%E0%B8%B3%E0%B9%80%E0%B8%9E%E0%B9%87%E0%B8%8D&oldid=13377890"
+    }
+   ]
+  },
+  "PK30": {
+   "platforms": [
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK29"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5&oldid=13377876"
+    }
+   ]
+  },
+  "MT01": {
+   "platforms": [
+    {
+     "no": "3",
+     "towards": "MT02",
+     "next": "MT02"
+    },
+    {
+     "no": "4",
+     "towards": "PK10",
+     "next": "PK10"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AD%E0%B8%B4%E0%B8%A1%E0%B9%81%E0%B8%9E%E0%B9%87%E0%B8%84_%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5&oldid=13278160"
+    }
+   ]
+  },
+  "MT02": {
+   "platforms": [
+    {
+     "no": "4",
+     "towards": "PK10",
+     "next": "MT01"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B8%AA%E0%B8%B2%E0%B8%9A%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5&oldid=13278154"
+    }
+   ]
+  },
+  "A1": {
+   "platforms": [
+    {
+     "no": "1, 2",
+     "towards": "A8",
+     "next": "A2"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Suvarnabhumi_station&oldid=1371202017"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AA%E0%B8%B8%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%93%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4&oldid=13127551"
+    }
+   ]
+  },
+  "A2": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "A1",
+     "next": "A1"
+    },
+    {
+     "no": "2",
+     "towards": "A8",
+     "next": "A3"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Lat_Krabang_station&oldid=1371327484"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B1%E0%B8%87&oldid=13127556"
+    }
+   ]
+  },
+  "A3": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "A1",
+     "next": "A2"
+    },
+    {
+     "no": "2",
+     "towards": "A8",
+     "next": "A4"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Ban_Thap_Chang_station&oldid=1381639170"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B1%E0%B8%9A%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%87&oldid=13127558"
+    }
+   ]
+  },
+  "A5": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "A1",
+     "next": "A4"
+    },
+    {
+     "no": "2",
+     "towards": "A8",
+     "next": "A6"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Ramkhamhaeng_station&oldid=1370977711"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%84%E0%B8%B3%E0%B9%81%E0%B8%AB%E0%B8%87&oldid=13342329"
+    }
+   ]
+  },
+  "A7": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "A1",
+     "next": "A6"
+    },
+    {
+     "no": "2",
+     "towards": "A8",
+     "next": "A8"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Ratchaprarop_station&oldid=1370978388"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%A3%E0%B8%A0&oldid=13216004"
+    }
+   ]
+  },
+  "RN01": {
+   "platforms": [
+    {
+     "no": "3, 14",
+     "towards": "RN10",
+     "next": "RN02"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%AD%E0%B8%A0%E0%B8%B4%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B9%8C&oldid=13376029"
+    }
+   ]
+  },
+  "RW01": {
+   "platforms": [
+    {
+     "no": "9",
+     "towards": "RW06",
+     "next": "RW02"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E%E0%B8%AD%E0%B8%A0%E0%B8%B4%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B9%8C&oldid=13376029"
+    }
+   ]
+  },
+  "RN02": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "RN10",
+     "next": "RN03"
+    },
+    {
+     "no": "2",
+     "towards": "RN01",
+     "next": "RN01"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%88%E0%B8%95%E0%B8%B8%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%A3&oldid=13111677"
+    }
+   ]
+  },
+  "RN03": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "RN10",
+     "next": "RN04"
+    },
+    {
+     "no": "2",
+     "towards": "RN01",
+     "next": "RN02"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%AA%E0%B8%A1%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B8%A3%E0%B8%B5&oldid=13360520"
+    }
+   ]
+  },
+  "RN04": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "RN10",
+     "next": "RN05"
+    },
+    {
+     "no": "2",
+     "towards": "RN01",
+     "next": "RN03"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%99&oldid=13111685"
+    }
+   ]
+  },
+  "RN05": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "RN10",
+     "next": "RN06"
+    },
+    {
+     "no": "2",
+     "towards": "RN01",
+     "next": "RN04"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%87&oldid=13204358"
+    }
+   ]
+  },
+  "RN07": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "RN10",
+     "next": "RN08"
+    },
+    {
+     "no": "2",
+     "towards": "RN01",
+     "next": "RN06"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%84%E0%B8%AB%E0%B8%B0&oldid=13111705"
+    }
+   ]
+  },
+  "RN08": {
+   "platforms": [
+    {
+     "no": "1, 2",
+     "towards": "RN10",
+     "next": "RN09"
+    },
+    {
+     "no": "3, 4",
+     "towards": "RN01",
+     "next": "RN07"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/w/index.php?title=Don_Mueang_railway_station&oldid=1372654332"
+    },
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%94%E0%B8%AD%E0%B8%99%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87&oldid=13375223"
+    }
+   ]
+  },
+  "RW05": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "RW06",
+     "next": "RW06"
+    },
+    {
+     "no": "2, 4",
+     "towards": "RW01",
+     "next": "RW02"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%9A%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B8&oldid=13112407"
+    }
+   ]
+  },
+  "RW06": {
+   "platforms": [
+    {
+     "no": "1, 4",
+     "towards": "RW01",
+     "next": "RW05"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%95%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B1%E0%B8%99&oldid=13207825"
+    }
+   ]
+  },
+  "PK08": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK09"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK07"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B9%81%E0%B8%88%E0%B9%89%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B0-%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B9%87%E0%B8%94_28&oldid=13377873"
+    }
+   ]
+  },
+  "PK25": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK26"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK24"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%AB%E0%B8%A7%E0%B8%99%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B2&oldid=13377885"
+    }
+   ]
+  },
+  "PK29": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "PK30",
+     "next": "PK30"
+    },
+    {
+     "no": "2",
+     "towards": "PK01",
+     "next": "PK28"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5&oldid=13376932"
+    }
+   ]
+  },
+  "RN09": {
+   "platforms": [
+    {
+     "no": "1",
+     "towards": "RN10",
+     "next": "RN10"
+    },
+    {
+     "no": "2",
+     "towards": "RN01",
+     "next": "RN08"
+    }
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia (Thai)",
+     "url": "https://th.wikipedia.org/w/index.php?title=%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AB%E0%B8%81&oldid=13111717"
+    }
+   ]
+  }
+ }
+}

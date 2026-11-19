@@ -1,0 +1,2 @@
+# Same proxy as netlify.toml, for drag-and-drop deploys.
+/kafe/cafes.json  https://kafebangkok.netlify.app/data/cafes.json  200!

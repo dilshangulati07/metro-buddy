@@ -1,0 +1,5 @@
+{
+  "about": "Fares checked in person at a ticket machine or gate. A check here replaces the table or estimate for that trip (both directions) and shows as 'Checked at station'. Add one entry per trip. 'from' and 'to' are station ids or codes from data/transit.json (e.g. N8, CEN, BL13). 'operator' is the fare system id: bts, gold, mrt, yellow, pink, arl or srt. 'adult' is the adult fare in baht. 'checked_on' is YYYY-MM-DD. Run node tests/run.mjs after editing: it fails if the site shows a different fare from a check.",
+  "example": { "from": "N8", "to": "CEN", "operator": "bts", "adult": 47, "checked_on": "2026-11-10", "note": "Rabbit card, Mo Chit to Siam" },
+  "checks": []
+}

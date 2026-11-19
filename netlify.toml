@@ -1,0 +1,40 @@
+# Metro Buddy - static site, no build step.
+[build]
+  publish = "."
+
+# Kafé Bangkok does not send CORS headers, so proxy its café list through
+# this site (same origin). The app falls back to hiding the café section
+# if this fails.
+[[redirects]]
+  from = "/kafe/cafes.json"
+  to = "https://kafebangkok.netlify.app/data/cafes.json"
+  status = 200
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "DENY"
+    Permissions-Policy = "geolocation=(self), camera=(), microphone=()"
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Secrets and local settings
+.env
+.env.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# Deploy zips and archives
+*.zip
+*.tar.gz
+metro-buddy-deploy/
+
+# Python
+__pycache__/
+*.pyc
+
+# Platform research downloads (Wikipedia pages fetched by tools/platform-research; re-fetchable)
+tools/platform-research/html/
+tools/platform-research/thhtml/
+
+# Original hero photo (only the optimised files made by tools/optimize-hero.py are kept)
+images/hero-train.jpg
+
+# Test screenshots and temp files (README screenshots live in docs/screenshots and are kept)
+/screenshots/
+/test-*.png
+*.tmp
+*.log
+*.backup*.json
