@@ -68,6 +68,7 @@ Platform numbers follow the same rule. They're used only where a source confirms
 - **Platforms:** station layouts from Wikipedia, in English and Thai, checked against the network. Each station records the exact article revisions it came from (see `tools/platform-research/`).
 - **Stations and coordinates:** compiled for this project. Coordinates are approximate.
 - **Cafés:** [Kafé Bangkok](https://kafebangkok.netlify.app) ([source](https://github.com/dilshangulati07-crypto/kafe-bangkok)).
+- **Hero photo:** [BTS SkyTrain](https://commons.wikimedia.org/wiki/File:BTS_SKY_TRAIN_(8).jpg) by PEAK99, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via Wikimedia Commons. Cropped and resized to WebP and JPEG by `tools/optimize-hero.py`. The files in `images/` are under the same licence.
 - Line names and colours belong to their operators. This is an independent project, not affiliated with BTS, BEM, MRTA, EBM, SRT or the Airport Rail Link.
 
 Always check fares and platforms at the station.
