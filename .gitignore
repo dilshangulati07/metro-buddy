@@ -35,3 +35,6 @@ images/hero-train.jpg
 *.tmp
 *.log
 *.backup*.json
+
+# Wrangler local dev files
+.wrangler/

@@ -2,7 +2,7 @@
 
 **A Bangkok rail route finder, with fares for every passenger type and the right platform for every ride.**
 
-**Live demo: [metro-buddy.netlify.app](https://metro-buddy.netlify.app)**
+**Live demo: [metro-buddy.pages.dev](https://metro-buddy.pages.dev)**
 
 Metro Buddy covers all 10 urban rail lines in Bangkok: BTS Sukhumvit, Silom and Gold, MRT Blue, Purple, Yellow and Pink, the Airport Rail Link, and the SRT Dark and Light Red lines. That's 195 stations. Pick two stations and it shows the fastest route, a step-by-step timeline with platform numbers, and the fare for adults, students and seniors. It works in English and Thai.
 
@@ -27,7 +27,7 @@ It's a static site built with plain HTML, CSS and JavaScript: no framework, no b
 - **Fares for adults, students and seniors,** split by operator, with a clear label on each: *Official fare*, *Checked at station*, or *about X THB* for estimates.
 - **Network map** drawn in SVG. Tap a station to set it as From or To, zoom with pinch, ctrl+scroll or the buttons, and see the route highlighted.
 - **Station pages** with platforms, lines, interchanges, exits, nearby cafés and a Google Maps link.
-- **Cafés near your destination,** within 800 m, from my other project [Kafé Bangkok](https://kafebangkok.netlify.app).
+- **Cafés near your destination,** within 800 m, from my other project [Kafé Bangkok](https://kafe-bangkok.pages.dev).
 - **Shareable links** (`#from=mo-chit&to=siam`, or codes: `#from=N8&to=CEN`), a one-tap return trip, and recent and saved routes stored in the browser.
 - **Mobile first and accessible.** It meets WCAG AA contrast and works from 380px phones up to desktop.
 
@@ -59,7 +59,7 @@ Platform numbers follow the same rule. They're used only where a source confirms
 - **HTML, CSS and JavaScript** (ES modules). No framework, no build step and no runtime dependencies.
 - **SVG** for the network map, with automatic label placement (`js/map-layout.js`, `js/labels.js`).
 - **Node.js** for the data build script and the test suite (86 tests: routes, fares, fare checks, platforms and data integrity).
-- **Netlify** hosting, with a same-origin proxy (`netlify.toml`, `_redirects`) that loads the café list from Kafé Bangkok.
+- **Cloudflare Pages** hosting, with a small Pages Function (`functions/kafe/cafes.json.js`) that loads the café list from Kafé Bangkok on the same origin.
 - `localStorage` for recent and saved routes, and Google Fonts (Bricolage Grotesque, Manrope, IBM Plex Sans Thai).
 
 ## Data sources and credits
@@ -67,7 +67,7 @@ Platform numbers follow the same rule. They're used only where a source confirms
 - **Fares:** official fare tables and notices from BTS (station-to-station PDFs, effective 1 Nov 2025), the Royal Gazette (MRT Blue and Purple, effective 3 Jul 2026), EBM (MRT Yellow) and SRTET (SRT Red lines). The estimates for the Gold Line, Pink Line and Airport Rail Link come from news and travel sources, which are named in the data and marked as estimates. Every source is listed with a link in `data/transit.json`.
 - **Platforms:** station layouts from Wikipedia, in English and Thai, checked against the network. Each station records the exact article revisions it came from (see `tools/platform-research/`).
 - **Stations and coordinates:** compiled for this project. Coordinates are approximate.
-- **Cafés:** [Kafé Bangkok](https://kafebangkok.netlify.app) ([source](https://github.com/dilshangulati07-crypto/kafe-bangkok)).
+- **Cafés:** [Kafé Bangkok](https://kafe-bangkok.pages.dev) ([source](https://github.com/dilshangulati07/kafe-bangkok)).
 - **Hero photo:** [BTS SkyTrain](https://commons.wikimedia.org/wiki/File:BTS_SKY_TRAIN_(8).jpg) by PEAK99, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via Wikimedia Commons. Cropped and resized to WebP and JPEG by `tools/optimize-hero.py`. The files in `images/` are under the same licence.
 - Line names and colours belong to their operators. This is an independent project, not affiliated with BTS, BEM, MRTA, EBM, SRT or the Airport Rail Link.
 
@@ -78,12 +78,12 @@ Always check fares and platforms at the station.
 The app uses absolute paths (`/js/app.js`), so serve the folder as the site root:
 
 ```bash
-git clone https://github.com/dilshangulati07-crypto/metro-buddy.git
+git clone https://github.com/dilshangulati07/metro-buddy.git
 cd metro-buddy
 python -m http.server 8080      # or: npx serve .
 ```
 
-Then open http://localhost:8080. The café section loads through a Netlify proxy that only exists on the live site, so locally it stays hidden. Everything else works.
+Then open http://localhost:8080. The café section loads through a Cloudflare Pages Function that only runs on the live site (or with `npx wrangler pages dev .`), so with a plain local server it stays hidden. Everything else works.
 
 Run the tests (Node 18+):
 
@@ -116,8 +116,8 @@ tests/run.mjs            test suite (not deployed)
 
 ## Deploy
 
-It's a static site, so there's no build command and the publish directory is `.`. Connect this repo to Netlify, or drag the site files into Netlify Drop. Leave out `tools/`, `tests/`, `docs/` and the Markdown files.
+It's a static site on Cloudflare Pages (https://metro-buddy.pages.dev), connected to this repo, so every push to `main` deploys it. There's no build command and the output directory is `/`. `_headers` sets the security and cache headers, and `functions/kafe/cafes.json.js` serves the café list. (`netlify.toml` is the old Netlify setup and isn't used.)
 
 ---
 
-Built by **Dilshan Gulati** · [Portfolio](https://dilshanportfolio1.netlify.app) · [Kafé Bangkok](https://github.com/dilshangulati07-crypto/kafe-bangkok)
+Built by **Dilshan Gulati** · [Portfolio](https://dilshangulati.pages.dev) · [Kafé Bangkok](https://github.com/dilshangulati07/kafe-bangkok)

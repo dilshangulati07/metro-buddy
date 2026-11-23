@@ -1,15 +1,16 @@
 // cafes.js - loads Kafé Bangkok's café list and finds cafés near a point.
 //
-// kafebangkok.netlify.app does not send CORS headers, so a browser on
-// another domain cannot read it directly. netlify.toml proxies
-// /kafe/cafes.json to the real file (same origin, no CORS needed). We try
-// the proxy first, then the direct URL (works if CORS is ever enabled).
+// Kafé Bangkok's site does not send CORS headers, so a browser on another
+// domain cannot read it directly. A Cloudflare Pages Function
+// (functions/kafe/cafes.json.js) passes the file on from this site's own
+// address (same origin, no CORS needed). We try that first, then the direct
+// URL (works if CORS is ever enabled).
 // If both fail, the café sections stay hidden.
 
 import { distanceKm } from './geo.js';
 
-const SOURCES = ['/kafe/cafes.json', 'https://kafebangkok.netlify.app/data/cafes.json'];
-const KAFE_SITE = 'https://kafebangkok.netlify.app/';
+const SOURCES = ['/kafe/cafes.json', 'https://kafe-bangkok.pages.dev/data/cafes.json'];
+const KAFE_SITE = 'https://kafe-bangkok.pages.dev/';
 export const RADIUS_M = 800;
 
 let cache = null;
