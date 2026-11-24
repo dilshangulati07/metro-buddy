@@ -485,7 +485,7 @@ html[lang="th"] .fare__title { letter-spacing: 0; text-transform: none; font-siz
 .fare-card .note { margin-top: 0; }
 .sources { font-size: 13px; color: var(--muted); margin-top: auto; padding-top: 4px; }
 .sources ul { margin: 4px 0 0; padding-left: 18px; }
-.sources a { color: var(--muted); word-break: break-word; }
+.sources a { color: var(--muted); word-break: break-word; display: inline-block; padding: 4px 0; }
 .fare-notes { margin-top: 16px; display: grid; gap: 10px; }
 .fare-notes .card { padding: 14px 16px; font-size: 14.5px; }
 .checked { display: inline-flex; gap: 6px; align-items: center; font-size: 13.5px; font-weight: 700; color: var(--accent-text); margin-top: 6px; }

@@ -28,7 +28,8 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap"></noscript>
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="modulepreload" href="/js/app.js">
   <link rel="preload" href="/data/transit.json" as="fetch" crossorigin>
@@ -65,8 +66,8 @@
         <div class="wrap hero__grid">
           <div class="hero__media" id="hero-media">
             <picture>
-              <source type="image/webp" srcset="/images/hero-train-720.webp 720w, /images/hero-train-1280.webp 1280w" sizes="(min-width: 960px) 46vw, 100vw">
-              <img src="/images/hero-train-1280.jpg" srcset="/images/hero-train-720.jpg 720w, /images/hero-train-1280.jpg 1280w" sizes="(min-width: 960px) 46vw, 100vw"
+              <source type="image/webp" srcset="/images/hero-train-540.webp 540w, /images/hero-train-720.webp 720w, /images/hero-train-1280.webp 1280w" sizes="(min-width: 960px) 46vw, 100vw">
+              <img src="/images/hero-train-1280.jpg" srcset="/images/hero-train-540.jpg 540w, /images/hero-train-720.jpg 720w, /images/hero-train-1280.jpg 1280w" sizes="(min-width: 960px) 46vw, 100vw"
                 width="1280" height="960" alt="A Bangkok Skytrain arriving at an elevated station" data-i18n-alt="heroAlt"
                 fetchpriority="high" decoding="async" onerror="this.closest('.hero__media').hidden = true">
             </picture>
