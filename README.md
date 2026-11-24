@@ -6,7 +6,7 @@
 
 Metro Buddy covers all 10 urban rail lines in Bangkok: BTS Sukhumvit, Silom and Gold, MRT Blue, Purple, Yellow and Pink, the Airport Rail Link, and the SRT Dark and Light Red lines. That's 195 stations. Pick two stations and it shows the fastest route, a step-by-step timeline with platform numbers, and the fare for adults, students and seniors. It works in English and Thai.
 
-It's a static site built with plain HTML, CSS and JavaScript: no framework, no build step and no backend. I built it as a portfolio project.
+It's built with plain HTML, CSS and JavaScript: no framework and no build step. A small backend (Cloudflare Pages Functions and a D1 database, in `functions/`) adds live service alerts, "Report a problem" and anonymous usage counts. I built it as a portfolio project.
 
 ![Route from Siam to Suvarnabhumi with a change at Phaya Thai, platforms and fares](docs/screenshots/route.png)
 
@@ -29,6 +29,8 @@ It's a static site built with plain HTML, CSS and JavaScript: no framework, no b
 - **Station pages** with platforms, lines, interchanges, exits, nearby cafés and a Google Maps link.
 - **Cafés near your destination,** within 800 m, from my other project [Kafé Bangkok](https://kafe-bangkok.pages.dev).
 - **Shareable links** (`#from=mo-chit&to=siam`, or codes: `#from=N8&to=CEN`), a one-tap return trip, and recent and saved routes stored in the browser.
+- **Service alerts.** Delays and closures posted from my admin dashboard show at the top of the site within a minute, and on every route and station page they affect, in English and Thai.
+- **Report a problem.** Riders can report a wrong fare, platform or exit from any route or station; a confirmed fare report becomes a checked fare in `data/fare-checks.json`.
 - **Mobile first and accessible.** It meets WCAG AA contrast and works from 380px phones up to desktop.
 
 ## How the route finding works

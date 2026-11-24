@@ -526,3 +526,53 @@ html[lang="th"] .fare__title { letter-spacing: 0; text-transform: none; font-siz
 /* Skeleton shimmer for loading states */
 .skel { display: block; height: 14px; border-radius: 7px; background: linear-gradient(90deg, #ECEAE3 0, #F6F4EF 50%, #ECEAE3 100%); background-size: 200% 100%; animation: shimmer 1.2s ease-in-out infinite; }
 @keyframes shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+
+/* ---------- Service alerts (js/live.js) ---------- */
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.alerts { background: var(--hero); padding: 0 0 12px; }
+.alerts .wrap { display: grid; gap: 8px; }
+.alert { border-radius: var(--r); background: var(--paper); border-left: 5px solid var(--alert, #C98A00); box-shadow: var(--shadow); }
+.alert--major { --alert: #C2262E; --alert-bg: #FDECEC; }
+.alert--minor { --alert: #C98A00; --alert-bg: var(--warn-bg); }
+.alert--info { --alert: var(--focus); --alert-bg: #E8EFFA; }
+.alert summary { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; padding: 12px 14px; cursor: pointer; list-style: none; min-height: 44px; }
+.alert summary::-webkit-details-marker { display: none; }
+.alert summary > svg { width: 20px; height: 20px; color: var(--alert); flex: none; }
+.alert summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: var(--r); }
+.alert__sev { font-size: 12px; font-weight: 800; letter-spacing: .02em; color: var(--alert); background: var(--alert-bg); padding: 2px 8px; border-radius: var(--r-pill); }
+.alert__title { font-weight: 700; color: var(--ink); flex: 1 1 14em; }
+.alert__until { font-size: 13px; color: var(--muted); }
+.alert__body { padding: 0 14px 12px 44px; color: var(--ink-2); font-size: 14.5px; line-height: 1.5; }
+.alert__body p { margin: 0 0 6px; }
+.alert__body a { color: var(--focus); }
+.alert__stations { font-size: 13.5px; }
+.route-alerts { grid-column: 1 / -1; display: grid; gap: 8px; margin-bottom: 4px; }
+.route-alerts__title { margin: 0; font-weight: 800; font-size: 14px; color: var(--warn); }
+.station__alerts { margin: 16px 0; }
+.station__report { margin: 18px 0 0; text-align: center; }
+
+/* ---------- Report a problem (js/report.js) ---------- */
+.btn--quiet { background: transparent; border-style: dashed; color: var(--muted); }
+.report { width: min(480px, calc(100vw - 24px)); max-height: calc(100dvh - 24px); padding: 0; border: 0; border-radius: var(--r-lg); background: var(--paper); color: var(--ink); box-shadow: var(--shadow-pop); }
+.report::backdrop { background: rgba(15, 27, 51, .5); }
+.report__form { padding: 20px; display: grid; gap: 14px; }
+.report__head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.report__head h2 { margin: 0; font-family: var(--font-head); font-size: 24px; }
+.report__lead, .report__about { margin: 0; font-size: 14.5px; }
+.report__about { font-weight: 700; }
+.report__kinds { border: 0; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.report__kinds legend { font-weight: 700; font-size: 14px; margin-bottom: 8px; padding: 0; }
+.report__kinds label { position: relative; }
+.report__kinds input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+.report__kinds span { display: inline-flex; align-items: center; min-height: 40px; padding: 0 14px; border-radius: var(--r-pill); border: 1.5px solid var(--rule-strong); font-size: 14px; font-weight: 600; }
+.report__kinds input:checked + span { background: var(--hero); border-color: var(--hero); color: var(--hero-ink); }
+.report__kinds input:focus-visible + span { outline: 3px solid var(--focus); outline-offset: 2px; }
+.report__field { display: grid; gap: 6px; font-size: 14px; font-weight: 700; }
+.report__field[hidden] { display: none; }
+.report__field input, .report__field textarea { font: inherit; font-weight: 400; font-size: 16px; padding: 10px 12px; border: 1.5px solid var(--rule-strong); border-radius: var(--r-sm); background: var(--paper); color: var(--ink); }
+.report__field textarea { resize: vertical; min-height: 96px; }
+.report__field input:focus, .report__field textarea:focus { outline: 3px solid color-mix(in srgb, var(--focus) 30%, transparent); border-color: var(--focus); }
+.report__hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.report__msg { margin: 0; min-height: 1.2em; color: #B3261E; font-size: 14px; }
+.report__actions { display: flex; justify-content: flex-end; gap: 8px; }
+@media (max-width: 560px) { .alert__body { padding-left: 14px; } }

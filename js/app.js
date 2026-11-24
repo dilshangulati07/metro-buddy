@@ -8,6 +8,9 @@ import { createMap } from './map.js';
 import { loadCafes, cafesNear, kafeLink } from './cafes.js';
 import { t, setLang, getLang, nameOf, altNameOf, labelOf } from './i18n.js';
 import * as store from './storage.js';
+import { track } from './track.js';
+import { loadAlerts, activeAlerts, alertsFor, routeScope } from './live.js';
+import { openReport } from './report.js';
 
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
@@ -63,6 +66,11 @@ async function init() {
   }
   state.graph = buildGraph(state.data);
   buildIndex();
+  loadAlerts().then(() => {
+    renderAlerts();
+    if (state.routes) renderResult();
+    if (!$('#view-station').hidden) renderStation(resolvePlace(currentStationId()));
+  });
 
   state.map = createMap({
     scroller: $('#map-scroll'),
@@ -103,6 +111,7 @@ async function init() {
   $('#lang-toggle').addEventListener('click', () => {
     setLang(getLang() === 'en' ? 'th' : 'en');
     store.save('lang', getLang());
+    track('lang', getLang());
     applyStatic();
     refreshAll();
   });
@@ -129,6 +138,7 @@ function applyStatic() {
 }
 
 function refreshAll() {
+  renderAlerts();
   if (!state.graph) return;
   syncInputs();
   renderLegend();
@@ -188,6 +198,47 @@ function badgesHtml(place) {
 function pill(line) {
   return `<span class="pill-line" style="--bg:${line.color};--fg:${line.text}">${esc(labelOf(line))}</span>`;
 }
+
+// ---------------------------------------------------------------------------
+// Service alerts (posted from the admin dashboard; see live.js)
+// ---------------------------------------------------------------------------
+const ALERT_ICON = '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3.2l7.2 12.6H2.8z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 8.2v3.6M10 14v.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
+
+/** "18:00", or "Sat 18:00" when it isn't today (Bangkok time). */
+function alertTime(iso) {
+  const d = new Date(iso);
+  const opts = { timeZone: 'Asia/Bangkok', hour: '2-digit', minute: '2-digit', hour12: false };
+  const day = (x) => x.toLocaleDateString('en-CA', { timeZone: 'Asia/Bangkok' });
+  const locale = getLang() === 'th' ? 'th-TH' : 'en-GB';
+  return day(d) === day(new Date()) ? d.toLocaleTimeString(locale, opts) : d.toLocaleString(locale, { ...opts, weekday: 'short', day: 'numeric', month: 'short' });
+}
+
+function alertHtml(a) {
+  const th = getLang() === 'th';
+  const title = (th && a.title_th) || a.title_en;
+  const body = (th && a.body_th) || a.body_en;
+  const lines = a.lines.map((id) => lineOf(id)).filter(Boolean);
+  return `<details class="alert alert--${esc(a.severity)}" data-alert="${esc(a.id)}">
+    <summary>${ALERT_ICON}<span class="alert__sev">${esc(t(`sev_${a.severity}`))}</span>${lines.map(pill).join('')}<span class="alert__title">${esc(title)}</span>${a.ends_at ? `<span class="alert__until">${esc(t('alertUntil', alertTime(a.ends_at)))}</span>` : ''}</summary>
+    <div class="alert__body">${body ? `<p>${esc(body)}</p>` : ''}${a.stations.length ? `<p class="alert__stations">${a.stations.map((id) => stationOf(id)).filter(Boolean).map((s) => `<a href="#station=${esc(s.place)}">${esc(nameOf(s))}</a>`).join(', ')}</p>` : ''}${a.url ? `<p><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(t('alertMore'))} ↗</a></p>` : ''}</div>
+  </details>`;
+}
+
+function renderAlerts() {
+  const box = $('#alerts');
+  if (!box || !state.graph) return;
+  const list = activeAlerts();
+  box.hidden = !list.length;
+  box.innerHTML = list.length ? `<div class="wrap"><p class="visually-hidden">${esc(t('alertsLabel'))}</p>${list.map(alertHtml).join('')}</div>` : '';
+}
+
+document.addEventListener('toggle', (e) => {
+  if (e.target.matches?.('details[data-alert]') && e.target.open) track('alert_open', e.target.dataset.alert);
+}, true);
+document.addEventListener('click', (e) => {
+  const cafe = e.target.closest('a[data-cafe]');
+  if (cafe) track('cafe', cafe.dataset.cafe);
+});
 
 // ---------------------------------------------------------------------------
 // Combobox
@@ -311,6 +362,7 @@ function wirePlanner() {
   const pick = (type) => {
     state.passenger = type;
     store.save('passenger', type);
+    track('passenger', type);
     syncPassenger();
     if (state.routes) renderResult();
   };
@@ -398,6 +450,7 @@ function planRoute({ fromHash = false } = {}) {
   state.routes = res;
   state.tab = 'fastest';
   store.addRecent(state.from, state.to);
+  track('route', `${state.from}>${state.to}`);
   const hash = `#from=${state.from}&to=${state.to}`;
   if (location.hash !== hash) history.replaceState(null, '', hash);
   renderResult();
@@ -449,7 +502,9 @@ function renderResult() {
   const fav = store.isFavourite(state.from, state.to);
   const fareValue = `${total.exact ? '' : `<span class="approx">${esc(t('aboutWord'))}</span>`}${total.amount}<small>${esc(t('unit'))}</small>`;
 
+  const hits = alertsFor(routeScope(route));
   inner.innerHTML = `
+    ${hits.length ? `<div class="route-alerts" role="note"><p class="route-alerts__title">${esc(t('alertOnRoute'))}</p>${hits.map(alertHtml).join('')}</div>` : ''}
     <div class="summary" role="group" aria-label="${esc(nameOf(from))} - ${esc(nameOf(to))}">
       <h2 class="summary__route"><span>${esc(nameOf(from))}</span>${ICON.arrow}<span>${esc(nameOf(to))}</span></h2>
       <div class="summary__stats">
@@ -482,6 +537,7 @@ function renderResult() {
           ${esc(t('showOnMap'))}
         </button>
         <a class="btn" href="#station=${to.id}" style="grid-column:1 / -1">${esc(t('stationInfo'))}: ${esc(nameOf(to))}</a>
+        <button type="button" class="btn btn--quiet" data-act="report" style="grid-column:1 / -1">${esc(t('report'))}</button>
       </div>
     </div>`;
 
@@ -494,12 +550,24 @@ function renderResult() {
   }));
   $('[data-act="fav"]', inner).addEventListener('click', () => {
     store.toggleFavourite(state.from, state.to);
+    if (store.isFavourite(state.from, state.to)) track('save', `${state.from}>${state.to}`);
     renderResult();
     renderSaved();
   });
   $('[data-act="return"]', inner).addEventListener('click', swapEnds);
+  $('[data-act="report"]', inner).addEventListener('click', () => openReport({
+    about: `${nameOf(from)} → ${nameOf(to)}`,
+    context: {
+      from: state.from,
+      to: state.to,
+      passenger: state.passenger,
+      shown: fare.parts.map((p) => ({ system: p.system, from: p.from, to: p.to, adult: p.fares.adult.amount, status: p.fares.adult.status })),
+    },
+    onDone: toast,
+  }));
   $('[data-act="share"]', inner).addEventListener('click', async () => {
     const url = `${location.origin}${location.pathname}#from=${state.from}&to=${state.to}`;
+    track('share', `${state.from}>${state.to}`);
     try { await navigator.clipboard.writeText(url); toast(t('copied')); } catch { prompt('', url); }
   });
   $('[data-act="map"]', inner).addEventListener('click', () => {
@@ -689,7 +757,7 @@ function placePoints(placeId) {
 
 function cafeCards(near) {
   return near.map(({ cafe, m }) => `
-    <li><a class="cafe" href="${esc(kafeLink(cafe))}" target="_blank" rel="noopener">
+    <li><a class="cafe" href="${esc(kafeLink(cafe))}" target="_blank" rel="noopener" data-cafe="${esc(cafe.id)}">
       <span class="cafe__top"><span class="cafe__name">${esc(cafe.name)}</span><span class="cafe__dist">${esc(t('km', m))}</span></span>
       ${cafe.description ? `<span class="cafe__desc">${esc(cafe.description)}</span>` : ''}
       <span class="cafe__more">${esc(t('onKafe'))}</span>
@@ -886,6 +954,8 @@ function renderStation(placeId) {
     cafesHtml = `<div class="card"><h2>${esc(t('nearbyCafes'))}</h2>${near.length ? `<ul class="cafe-grid">${cafeCards(near)}</ul>` : `<p class="muted">${esc(t('noCafes'))}</p>`}</div>`;
   }
 
+  const stationAlerts = alertsFor({ lines: nodes.map((s) => s.line), stations: nodes.map((s) => s.id) });
+  track('station', placeId);
   const first = nodes[0];
   const mapsQuery = encodeURIComponent(`${lineOf(first.line).short} ${first.name_en} station, Bangkok`);
   view.innerHTML = `
@@ -901,6 +971,7 @@ function renderStation(placeId) {
         <button type="button" class="btn" data-act="to">${esc(t('routeToHere'))}</button>
         <a class="btn" href="https://www.google.com/maps/search/?api=1&query=${mapsQuery}" target="_blank" rel="noopener">${esc(t('openMaps'))}</a>
       </div>
+      ${stationAlerts.length ? `<div class="route-alerts station__alerts" role="note"><p class="route-alerts__title">${esc(t('alertAtStation'))}</p>${stationAlerts.map(alertHtml).join('')}</div>` : ''}
       <div class="station__grid">
         <div class="card card--main"><h2>${esc(t('stationPlatforms'))}</h2><div class="plats">${platformsHtml(nodes)}</div></div>
         <div class="card"><h2>${esc(t('stationLines'))}</h2><ul class="station__lines">${linesHtml}</ul></div>
@@ -908,7 +979,14 @@ function renderStation(placeId) {
         <div class="card"><h2>${esc(t('stationExits'))}</h2>${exitsHtml}</div>
         ${cafesHtml}
       </div>
+      <p class="station__report"><button type="button" class="linkbtn" data-report>${esc(t('reportStation'))}</button></p>
     </div></section>`;
+  $('[data-report]', view).addEventListener('click', () => openReport({
+    about: nameOf(place),
+    kind: 'station',
+    context: { station: placeId, shown: [] },
+    onDone: toast,
+  }));
 
   $$('[data-act]', view).forEach((b) => b.addEventListener('click', () => {
     setEnd(b.dataset.act, placeId, true);
